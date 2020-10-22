@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    border: 5px solid black;
+    width: 500px;
+    height: 400px;
+}
+
+.orange {
+    background-color: orange;
+    width: 500px;
+    height: 50px;
+}
+
+.centr {
+    display: flex;
+    flex-direction: row;
+}
+
+.centr>div {
+    flex-basis: 25%;
+    height: 300px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
