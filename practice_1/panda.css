@@ -1,0 +1,26 @@
+.colons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+}
+
+.right {
+    border: 1px solid black;
+}
+
+.w3-hover-opacity:hover {
+    opacity: 0.60
+}
+
+.w3-hover-opacity-off:hover {
+    opacity: 1
+}

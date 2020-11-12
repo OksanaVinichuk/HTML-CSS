@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.menu1,
+.menu2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+.menu2>div {
+    font-size: 14px;
+}
+
+.menu1>div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+
+}
+.header-container {
+    font-size: 12px;
+    background-color: #7E0019;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.first-item {
+    color: #900022;
+}
+
+.header-container-left,
+.header-container-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-container-left,
+.header-container-right>div {
+    margin: 10px;
+    font-weight: 800;
+}
+
+.i {
+    display: inline-block;
+    position: relative;
+
+}
+.header-container-centr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lang {
+    display: flex;
+
+}
+span {
+    display: block;
+    margin: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.lang>span {
+    margin: 0;
+}
+
+.ukr {
+    opacity: 0.5;
+}
+
+.button {
+    display: flex;
+}
+
+.btn {
+    display: inline-block;
+    height: 40px;
+    border: 3px solid white;
+    background: #b30c1d;
+    border-radius: 20px;
+    position: relative;
+    align-items: center;
+
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+svg {
+    width: 308px;
+    height: 42px;
+}
+
+svg[AttributesStyle] {
+    x: 0px;
+    y: 0px;
+    fill: rgb(255, 255, 255);
+
+}
+
+.covid-19-title{
+    color: #900022;
+    cursor: pointer;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.covid-19-holder {
+
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: visible;
+    flex-wrap: wrap ;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around ;
+    align-items: baseline;
+}
+.covid-19-statistic{
+    box-sizing: border-box;
+    width: 24%;
+    border: 1px solid lightgray;
+    padding: 12px;
+
+}
+.covid-19-i{ font-size: 11px;
+
+}
+.covid-19-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.covid-19-numbers{
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.covid-19-items>img{
+    width: 100px;
+    height: 30px;
+}
+.covid-19-num {
+    color: #900022;
+}
+.covid-19-link{
+    text-align: start;
+    font-weight: normal;
+    margin: 20px;
+    cursor:pointer;
+    text-transform: none;
+}
+
+.covid-19-map{
+    color: #900022;
+    text-align: start;
+    font-weight: normal;
+    margin: 20px;
+    cursor:pointer;
+}
+.article-container{
+    display: flex;
+    display: flex;
+    background-color: #484242;
+
+}
+.article-container-image{
+    width: 300px;
+}
+.big-words{
+    font-size: 32px;
+    color:white;
+}
+.paragraph{
+    font-size: 16px;
+    color:white;
+}

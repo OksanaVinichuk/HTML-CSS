@@ -1,0 +1,52 @@
+body {}
+
+h1 {
+    font-weight: 900;
+    color: #e21a22;
+    background;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+
+ul {
+    color: #e21a22;
+    border: 2px solid rgb(red, green, blue);
+    border-radius: 10%;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 10%;
+    opacity: 0.75;
+}
+
+.image1:hover {
+    width: 450px;
+    height: 325px;
+    border-radius: 10%;
+}
+
+.list_ingredients {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+.preparation {
+    padding: 10px;
+    background-color: darkcyan;
+}

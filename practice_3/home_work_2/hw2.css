@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+}
+
+h1 {
+    font-weight: 700;
+    color: #e21a22;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 35px;
+
+}
+
+h3 {
+    color: #e21a22;
+    line-height: 35px;
+    margin: 10px;
+    text-align: center;
+    border-style: groove;
+}
+
+ul {
+    border: 2px solid black;
+    border-radius: 10%;
+    border-style: dotted;
+}
+
+img {
+    width: 550px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.image1:hover {
+    cursor: pointer;
+    opacity: 0.60
+}
+
+.list_ingredients1 {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+
+}
+
+.list_ingredients2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.preparation {
+    padding: 10px;
+    /* background-color: darkcyan; */
+}
+
+.meal1 {
+    background-image: url(img/d0e1db1619462a14a170be06d17ff154_plov_iz_svininy_depositphotos_62115319.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.meal2 {
+    background-image: url(img/403493_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+li {
+    color: gray;
+    margin: 5px;
+}

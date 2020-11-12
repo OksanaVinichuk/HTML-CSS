@@ -1,0 +1,76 @@
+.strong {
+    font-weight: 700;
+}
+
+.tooltip:hover {
+
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid black;
+    opacity: 0.5;
+}
+
+.solar_system {
+    background-image: url(./img/220px-Planets2013.svg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1200px;
+    height: 200px;
+
+}
+
+.orange {
+    color: orange;
+    text-decoration: none;
+}
+
+.orange:hover {
+    color: orangered;
+    font-size: 120%;
+}
+
+.yellow {
+    color: yellowgreen;
+
+}
+
+.yellow:hover {
+    color: green;
+    font-size: 120%;
+}
+
+.blue {
+    color: blue;
+}
+
+.blue:hover {
+    color: darkblue;
+    font-size: 120%;
+}
+
+.red {
+    color: red;
+    direction: none;
+}
+
+.red:hover {
+    color: darkred;
+    font-size: 120%;
+}
+
+.darkorange {
+    color: darkorange;
+}
+
+.lightblue {
+    color: lightblue;
+}
+
+.green {
+    color: green;
+}
+
+.purple {
+    color: purple;
+}
